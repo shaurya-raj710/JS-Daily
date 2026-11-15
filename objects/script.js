@@ -38,3 +38,21 @@ let value = prompt("enter the value")
 laptop[key] = value 
 
 console.log(laptop)
+
+//updating --> it also has 2 methods
+
+laptop["brand"] ="asus"
+
+let val1 = prompt("enter the key you want to change")
+let newVal = prompt("Enter teh new value")
+
+laptop[val1] = newVal
+
+
+console.log(laptop)
+
+// acessing using the notification 
+
+let access = prompt("What do you want to know about my laptop?")
+
+console.log(laptop[access])
