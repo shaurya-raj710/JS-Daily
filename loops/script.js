@@ -17,3 +17,11 @@ do{
     console.log(m);
     m++
 }while(m<4)   // condition is that, m should be less than 5 but it still runs lol
+
+
+// for loop
+// initianlise ,condition ,increment (change)
+
+for(let i = 1; i <=10;i++){
+    console.log(i)
+}
