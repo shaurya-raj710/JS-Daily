@@ -35,3 +35,33 @@ person1.info()
 
 
 //--------------------------------------------------------------------------------
+
+// objects inside objects
+
+let student ={
+    name:"Rahul",
+    marks: {
+        maths: 98,
+        python :100,
+        fsd : 95
+    },
+    college: "Zenith"
+}
+
+console.log(student.marks.maths)
+
+// loops in objects
+
+for(let i in student){
+    console.log(i)
+}
+
+// objects to arrays
+
+const keys = Object.keys(student)
+console.log(keys)
+// to access values we use
+const vals = Object.values(student)
+console.log(vals)
+
+// Object.entries , these give you key value pair
