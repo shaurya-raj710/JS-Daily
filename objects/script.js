@@ -22,7 +22,8 @@ console.log(student1["1"])
 let laptop = {
     processor : "intel",
     brand: "lenovo",
-    color:"silver-black"
+    color:"silver-black",
+    storage : "512gb"
 }
 
 // hardcode way
@@ -56,3 +57,10 @@ console.log(laptop)
 let access = prompt("What do you want to know about my laptop?")
 
 console.log(laptop[access])
+
+
+// now we will see delete
+// delete also has 2 options..
+
+delete laptop.storage
+console.log(laptop)
