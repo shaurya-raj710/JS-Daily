@@ -1,0 +1,10 @@
+// Dom is a part of Bom
+// and it is a tree like structure
+
+there are various methods to get an element...
+
+also, through using window.document.body.element and so
+
+and aslo through various selectors
+1. getElementsbyTagName --------> 
+
