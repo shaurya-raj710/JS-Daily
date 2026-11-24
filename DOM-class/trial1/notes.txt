@@ -8,3 +8,5 @@ also, through using window.document.body.element and so
 and aslo through various selectors
 1. getElementsbyTagName --------> 
 
+2. getElementbyClassName ---------->
+
