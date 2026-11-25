@@ -1,0 +1,2 @@
+learning some practical js , to build projects and understand the frame works oen by oen
+
