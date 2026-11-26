@@ -14,5 +14,25 @@ bluee.addEventListener("click", function(){
     back.style.backgroundColor ="blue"
 })
 
+let greenn = document.getElementById("green")
+
+greenn.addEventListener("click", function(){
+    back.style.backgroundColor ="green"
+})
+
+let yellow = document.getElementById("yellow")
+yellow.addEventListener("click",function(){
+    back.style.backgroundColor ="yellow"
+} )
+
+let purple = document.getElementById("purple")
+
+purple.addEventListener("click", function(){
+    back.style.backgroundColor="purple"
+})
 
 
+let reset = document.getElementById("reset-btn")
+reset.addEventListener("click", function(){
+    back.style.backgroundColor="white"
+})
