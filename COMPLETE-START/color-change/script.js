@@ -34,5 +34,5 @@ purple.addEventListener("click", function(){
 
 let reset = document.getElementById("reset-btn")
 reset.addEventListener("click", function(){
-    back.style.backgroundColor="white"
+    back.style.backgroundColor="black"
 })

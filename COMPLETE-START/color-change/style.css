@@ -10,7 +10,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: white;
+    background-color: black;
     /* Makes the background color change smooth */
     transition: background-color 0.3s ease;
 }
